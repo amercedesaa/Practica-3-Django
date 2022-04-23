@@ -1,0 +1,44 @@
+{% extends "templates/base.html" %}
+{% load static %}
+{% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'Practica3app1/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Programación</span>
+            <span class="section-heading-lower">Práctica 3 Django</span>
+          </h2>
+          <p class="mb-3">Practica 3 de Programación 2 contruida sobre el frameworl Django
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">ECFM</span>
+                <span class="section-heading-lower">Programación matemática 2</span>
+              </h2>
+              <p class="mb-0">Practica 3 de Programación 2 contruida sobre el frameworl Django
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+{% endblock %}
+   
